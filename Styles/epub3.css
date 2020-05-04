@@ -30,6 +30,7 @@ body {
   /* NOTE putting optimizeLegibility on the body slows down rendering considerably */
   text-rendering: optimizeSpeed;
   /* -webkit-font-smoothing has no noticable effect and is controversial, so leaving it off */
+  font-family: "Roboto-Regular";
 }
 
 /* disables night mode in Aldiko, hoo-ha! */
