@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:96b3ba1a-7242-4781-bd88-78cbc17a99bb</dc:identifier>
+    <dc:language>en-AU</dc:language>
+    <dc:title>[Title here]</dc:title>
+    <meta name="Sigil version" content="0.9.9" />
+    <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2020-05-02</dc:date>
+    <meta name="cover" content="cover.jpg" />
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="content1.xhtml" href="Text/content1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="default.css" href="Styles/default.css" media-type="text/css"/>
+    <item id="Roboto-Regular.ttf" href="Fonts/Roboto-Regular.ttf" media-type="application/x-font-ttf"/>
+    <item id="SigmarOne-Regular.ttf" href="Fonts/SigmarOne-Regular.ttf" media-type="application/x-font-ttf"/>
+    <item id="content2.xhtml" href="Text/content2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="content3.xhtml" href="Text/content3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="context4.xhtml" href="Text/context4.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="content1.xhtml"/>
+    <itemref idref="content2.xhtml"/>
+    <itemref idref="content3.xhtml"/>
+    <itemref idref="context4.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="copyright-page" title="Copyright Page" href="Text/content1.xhtml"/>
+  </guide>
+</package>
