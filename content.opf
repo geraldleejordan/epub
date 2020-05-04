@@ -10,6 +10,7 @@
     <meta name="cover" content="cover.jpg" />
   </metadata>
   <manifest>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/> 
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="_copyright.xhtml" href="Text/_copyright.xhtml" media-type="application/xhtml+xml"/>
     <item id="_dedication.xhtml" href="Text/_dedication.xhtml" media-type="application/xhtml+xml"/>
@@ -22,7 +23,6 @@
     <item id="epub3-css3-only.css" href="Styles/epub3-css3-only.css" media-type="text/css"/>
     <item id="Roboto-Regular.ttf" href="Fonts/Roboto-Regular.ttf" media-type="application/x-font-ttf"/>
     <item id="SigmarOne-Regular.ttf" href="Fonts/SigmarOne-Regular.ttf" media-type="application/x-font-ttf"/>
-    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg"/>    
   </manifest>
   <spine toc="ncx">
     <itemref idref="cover"/>
