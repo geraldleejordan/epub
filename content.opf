@@ -9,10 +9,6 @@
     <dc:date xmlns:opf="http://www.idpf.org/2007/opf" opf:event="modification">2020-05-02</dc:date>
     <meta name="cover" content="cover.jpg" />
   </metadata>
-  
-  
-  
-  
   <manifest>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="_copyright.xhtml" href="Text/_copyright.xhtml" media-type="application/xhtml+xml"/>
