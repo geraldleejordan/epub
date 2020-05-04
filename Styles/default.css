@@ -1,0 +1,46 @@
+@font-face{
+  font-family: "SigmarOne-Regular";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../Fonts/SigmarOne-Regular.ttf");
+}
+@font-face{
+  font-family: "Roboto-Regular";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../Fonts/Roboto-Regular.ttf");
+}
+
+body {
+font-family: "Roboto-Regular";
+}
+
+p {
+font-family: "Roboto-Regular";
+}
+
+h1 {
+font-family: "SigmarOne-Regular";
+}
+
+h2 {
+font-family: "SigmarOne-Regular";
+}
+
+h3 {
+font-family: "SigmarOne-Regular";
+}
+
+h4 {
+font-family: "SigmarOne-Regular";
+}
+
+h5 {
+font-family: "SigmarOne-Regular";
+}
+
+h6 {
+font-family: "SigmarOne-Regular";
+}
