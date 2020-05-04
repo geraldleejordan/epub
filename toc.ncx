@@ -1,14 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<link rel="stylesheet" type="text/css" href="../Styles/default.css"/>
-<title>Copyright</title>
-</head>
-<body>
-<h2>Copyright</h2>
-<p>© 2020</p>
-</body>
-</html>
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="_book_title" name="dtb:uid"/>
+    <meta content="80" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Book Title</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="nav_1" playOrder="1">
+      <navLabel>
+        <text>Copyright</text>
+      </navLabel>
+      <content src="Text/_copyright.xhtml"/>
+    </navPoint>
+    <navPoint id="nav_2" playOrder="2">
+      <navLabel>
+        <text>Dedication</text>
+      </navLabel>
+      <content src="Text/_dedication.xhtml"/>
+    </navPoint>
+    <navPoint id="nav_3" playOrder="3">
+      <navLabel>
+        <text>Preface</text>
+      </navLabel>
+      <content src="Text/_preface.xhtml"/>
+    </navPoint>
+    <navPoint id="nav_4" playOrder="4">
+      <navLabel>
+        <text>Chapter One</text>
+      </navLabel>
+      <content src="Text/chapter01.xhtml"/>
+    </navPoint>
+    <navPoint id="nav_5" playOrder="5">
+      <navLabel>
+        <text>Chapter Two</text>
+      </navLabel>
+      <content src="Text/chapter02.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>
